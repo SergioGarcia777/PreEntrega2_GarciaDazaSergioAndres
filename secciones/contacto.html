@@ -5,22 +5,27 @@
 	<title>PIZZAS DE SAN RAMOS</title>
     <link rel="icon" type="image/png" href="../recursos/imagenes/Logo/icons8-pizza-16.png"/>
 	<link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 
 	
-<header class="cabecera">
-	<nav>
-    <ul>
-      <li><a href="../index.html"><img src="../recursos/imagenes/Logo Pizzería.png" alt="logo principal"></a></li>
-      <li><a href="/secciones/menu.html">MENU</a></li>
-      <li><a href="/secciones/nosotros.html">ACERCA DE NOSOTROS</a></li>
-      <li><a href="/secciones/locales.html">LOCALES</a></li>
-      <li><a href="contacto.html">CONTACTOS</a></li>
-    </ul>
-  </nav>
-</header>
+  <nav>
+		<input type="checkbox" id="check">    
+		<label for="check" class="checkbtn">
+			<i class="fa-solid fa-bars"></i>
+		</label>
 
+            <a href="../index.html" class="enlace"><img src="../recursos/imagenes/Logo Pizzería.png" alt="logo principal" class="logo"></a>
+      
+            <ul>
+                <li><a href="../secciones/menu.html">MENU</a></li>
+			    <li><a href="../secciones/nosotros.html">ACERCA DE NOSOTROS</a></li>
+                <li><a href="../secciones/locales.html">LOCALES</a></li>
+			    <li><a href="contacto.html">CONTACTOS</a></li>
+            </ul>
+       
+		</nav>
 
 
 <hr>
@@ -84,11 +89,14 @@
 
 
 <hr>
-<footer class="piedepagina">
-	<p>Derechos Reservados (c) 2023 - Pizzería San Ramos</p>
-</footer>
+<footer class="footer text-bg-primary p-2 text-center">
+  <div class="container">
+      <p>Derechos Reservados (c) 2023 - Pizzería San Ramos</p>
+  </div>
+</footer>	
 	
 	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 	
 </body>
 </html>	
